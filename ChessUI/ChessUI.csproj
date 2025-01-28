@@ -7,12 +7,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Assets\BishopB.png" />
+    <Content Remove="wwwroot\Assets\BishopW.png" />
+    <Content Remove="wwwroot\Assets\Board.png" />
+    <Content Remove="wwwroot\Assets\CursorB.cur" />
+    <Content Remove="wwwroot\Assets\CursorW.cur" />
+    <Content Remove="wwwroot\Assets\icon.ico" />
+    <Content Remove="wwwroot\Assets\KingB.png" />
+    <Content Remove="wwwroot\Assets\KingW.png" />
+    <Content Remove="wwwroot\Assets\KnightB.png" />
+    <Content Remove="wwwroot\Assets\KnightW.png" />
+    <Content Remove="wwwroot\Assets\PawnB.png" />
+    <Content Remove="wwwroot\Assets\PawnW.png" />
+    <Content Remove="wwwroot\Assets\QueenB.png" />
+    <Content Remove="wwwroot\Assets\QueenW.png" />
+    <Content Remove="wwwroot\Assets\RookB.png" />
+    <Content Remove="wwwroot\Assets\RookW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <COMReference Include="{d37e2a3e-8545-3a39-9f4f-31827c9124ab}">
       <WrapperTool>tlbimp</WrapperTool>
       <VersionMinor>4</VersionMinor>
       <VersionMajor>2</VersionMajor>
       <Guid>d37e2a3e-8545-3a39-9f4f-31827c9124ab</Guid>
     </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Assets\BishopB.png" />
+    <None Include="wwwroot\Assets\BishopW.png" />
+    <None Include="wwwroot\Assets\Board.png" />
+    <None Include="wwwroot\Assets\CursorB.cur" />
+    <None Include="wwwroot\Assets\CursorW.cur" />
+    <None Include="wwwroot\Assets\icon.ico" />
+    <None Include="wwwroot\Assets\KingB.png" />
+    <None Include="wwwroot\Assets\KingW.png" />
+    <None Include="wwwroot\Assets\KnightB.png" />
+    <None Include="wwwroot\Assets\KnightW.png" />
+    <None Include="wwwroot\Assets\PawnB.png" />
+    <None Include="wwwroot\Assets\PawnW.png" />
+    <None Include="wwwroot\Assets\QueenB.png" />
+    <None Include="wwwroot\Assets\QueenW.png" />
+    <None Include="wwwroot\Assets\RookB.png" />
+    <None Include="wwwroot\Assets\RookW.png" />
   </ItemGroup>
 
   <ItemGroup>
